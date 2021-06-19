@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "538096927401",
+    "project_id": "lawnicstask-ac858",
+    "storage_bucket": "lawnicstask-ac858.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538096927401:android:526c6d599fdba2aaaa5fb8",
+        "android_client_info": {
+          "package_name": "com.lawnicstask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538096927401-ho1g86s04tmcbjgdsrtohbit6s4bfh03.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMeWKGvu1U1nBE30tUUm4B5cqUErMzREs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538096927401-ho1g86s04tmcbjgdsrtohbit6s4bfh03.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
