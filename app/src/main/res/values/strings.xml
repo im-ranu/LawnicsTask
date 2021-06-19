@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Lawnics Task</string>
     <string name="fab_camera_icon">Fab Camera Icon</string>
+    <string name="no_images">No Uploaded found.\n Click camera button and Upload Instantly</string>
 </resources>

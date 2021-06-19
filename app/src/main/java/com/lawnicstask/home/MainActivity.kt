@@ -77,8 +77,11 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
                     imageList.add(ImageItems(uid,id,name,type,imgUrl,date,username,pages,time))
                 }
                 if (it.size()==0){
-                    binding?.noImageAvailable?.setText("No Uploaded found.\n Click camera button and Upload Instantly")
+                    binding?.noImageAvailable?.setText(getString(R.string.no_images))
                     binding?.noImageAvailable?.visibility =View.VISIBLE
+                }else{
+                    binding?.noImageAvailable?.setText("")
+                    binding?.noImageAvailable?.visibility =View.GONE
                 }
                 binding?.progressBar?.visibility = View.GONE
                 imageadapter?.notifyDataSetChanged()
